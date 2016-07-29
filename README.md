@@ -37,7 +37,7 @@ Great fun to come!
 
 A different approach to avoid this SPOF would be to use a mesh topology, where every nodes can have a dedicated connection to each other, and no more central relay.
 To accomplish that, I found two solutions so far to set-up mesh VPN:
-- IPSEC in transport mode: looks fast, secure, but not so easy to get well
+- IPSEC in transport mode: looks fast, secure, but not so easy to get the configuration well
 - tinc: secure, very easy to set-up
 
 I was really surprised when I discovered tinc. 
