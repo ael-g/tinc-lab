@@ -1,5 +1,5 @@
 # tinc-lab
-This repo contains file to bootstrap a 3 nodes mesh VPN with tinc and make some performance tests with it. 
+This repo contains some files to bootstrap a 3 nodes mesh VPN with tinc and make some performance tests with it with different ciphers. 
 I try to keep it as simple and usuable everywhere as possible. It uses Vagrant and Virtualbox to create the VM and Saltstack to provision them with tinc.
 For the sake of simplicity, I'm going straight to a minimal working configuration and I'm not using any optional features of tinc which should probably be used in production to enhance security and flexibility.
 
