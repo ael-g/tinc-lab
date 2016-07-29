@@ -3,7 +3,7 @@ This repo contains file to bootstrap a 3 nodes mesh VPN with tinc and make some 
 I try to keep it as simple and usuable everywhere as possible. It uses Vagrant and Virtualbox to create the VM and Saltstack to provision them with tinc.
 For the sake of simplicity, I'm going straight to a minimal working configuration and I'm not using any optional features of tinc which should probably be used in production to enhance security and flexibility.
 
-## Why would you need VPN (in the cloud) ?
+## Why would you need a VPN (in the cloud) ?
 Because if you're using some cloud provider to build a service with multiple instances/droplets/VPS/ you'll probably want to make them communicate with each other.
 But will they be communnicating over the Internet ? All your database queries and logs sent in cleartext, all you're administration and monitoring web interfaces open on the Internet ?
 That's probably not a good idea...
