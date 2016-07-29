@@ -4,8 +4,8 @@ I try to keep it as simple and usuable everywhere as possible. It uses Vagrant a
 For the sake of simplicity, I'm going straight to the minimal working configuration and I'm not using any optional features of tinc which should probably be used in production to enhance security and flexibility.
 
 ## Why would you need a VPN (in the cloud) ?
-Because if you're using some cloud provider to build a service with multiple instances/droplets/VPS/ you'll probably want to make them communicate with each other.
-But will they be communnicating over the Internet ? All your database queries and logs sent in cleartext, all you're administration and monitoring web interfaces open on the Internet ?
+Because if you're using some cloud provider to build a service with multiple instances/droplets/VPS you'll probably want to make them communicate with each other.
+But will they be communicating over the Internet ? All your database queries and logs sent in cleartext, all you're administration and monitoring web interfaces open on the Internet ?
 That's probably not a good idea...
 So you'll need a way to communicate securely and to isolate the services that don't need to be reachable to anyone on the Internet, but only by your other nodes.
 You'll want somehing like a LAN between your nodes where you know you can bind services on it without them being accessible to anybody. 
